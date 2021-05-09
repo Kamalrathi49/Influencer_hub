@@ -19,10 +19,10 @@ class App extends React.Component {
          <Header/>
           <Switch>
             <Route exact path="/influencer_hub" component={HomePage} />
-            <Route path="/kamal" component={User1Data} />
-            <Route path="/deepak" component={User2Data} />
-            <Route path="/404" component={PageNotfound} />
-            <Redirect to="/404" />
+            <Route path="/influencer_hub/kamal" component={User1Data} />
+            <Route path="/influencer_hub/deepak" component={User2Data} />
+            <Route path="/influencer_hub/404" component={PageNotfound} />
+            <Redirect to="/influencer_hub/404" />
           </Switch>
         </BrowserRouter>
       </div>
