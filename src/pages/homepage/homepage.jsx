@@ -28,7 +28,7 @@ const HomePage = () => {
 
       <div class="cards-list">
 
-        <Link to="/kamal">
+        <Link to="/influencer_hub/kamal">
         <div class="card 1">
           <div class="card_image">
             {" "}
@@ -39,7 +39,7 @@ const HomePage = () => {
           </div>
         </div>
         </Link>
-        <Link to="deepak">
+        <Link to="/influencer_hub/deepak">
         <div class="card 2">
           <div class="card_image">
             <img src="https://avatars.githubusercontent.com/u/57827083?v=4" />
