@@ -11,11 +11,6 @@ import VideoBg from "reactjs-videobg";
 const HomePage = () => {
   return (
     <div className="users">
-      <VideoBg>
-        <VideoBg.Source src={social} type="video/ogg" />
-        <VideoBg.Source src={social} type="video/webm" />
-        <VideoBg.Source src={social} type="video/mp4" />
-      </VideoBg>
       <div>
         <h1 style={{ color: "#333", display: "block" }}>
           The Only Link You’ll Ever Need
@@ -27,27 +22,26 @@ const HomePage = () => {
       <Search />
 
       <div class="cards-list">
-
         <Link to="/influencer_hub/kamal">
-        <div class="card 1">
-          <div class="card_image">
-            {" "}
-            <img src="https://avatars.githubusercontent.com/u/73382877?v=4" />{" "}
+          <div class="card 1">
+            <div class="card_image">
+              {" "}
+              <img src="https://avatars.githubusercontent.com/u/73382877?v=4" />{" "}
+            </div>
+            <div class="card_title title-white">
+              <p>Kamal</p>
+            </div>
           </div>
-          <div class="card_title title-white">
-            <p>Kamal</p>
-          </div>
-        </div>
         </Link>
         <Link to="/influencer_hub/deepak">
-        <div class="card 2">
-          <div class="card_image">
-            <img src="https://avatars.githubusercontent.com/u/57827083?v=4" />
+          <div class="card 2">
+            <div class="card_image">
+              <img src="https://avatars.githubusercontent.com/u/57827083?v=4" />
+            </div>
+            <div class="card_title title-white">
+              <p>Deepak</p>
+            </div>
           </div>
-          <div class="card_title title-white">
-            <p>Deepak</p>
-          </div>
-        </div>
         </Link>
       </div>
     </div>

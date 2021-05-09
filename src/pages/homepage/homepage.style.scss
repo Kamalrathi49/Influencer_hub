@@ -6,19 +6,8 @@
   align-items: center;
 }
 
-#background-video {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  padding: none;
-  position: fixed;
 
-  @media screen and (max-width: 900px) {
-    height: 100px;
-    width: 100px;
-    position: relative;
-  }
-}
+
 
 .cards-list {
   z-index: 0;
