@@ -1,7 +1,7 @@
 .containers {
   text-align: center;
   align-content: center;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#e66465, #91e5d0);
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -62,4 +62,15 @@
   background-color: white;
 }
 
+.footer {
+  padding-bottom: 20px;
+  margin: 0;
+}
 
+.footer-heading {
+  font-size: 18px;
+  font-family: fantasy;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

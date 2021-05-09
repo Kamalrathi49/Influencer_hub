@@ -45,9 +45,12 @@ class User2Data extends React.Component {
           </a>
           <button className="btn">Text on Whatsapp</button>
         </div>
+        <div className="footer">
         <Link to="/">
-          <Logo style={{ margin: "10px", paddingBottom: "20px" }} />
+          <Logo style={{  marginBottom:"0px", height:'55px', width:"55px" }} />
         </Link>
+         <p className="footer-heading" >Influencer Hub</p>
+         </div>
       </div>
     );
   }
