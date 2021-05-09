@@ -10,8 +10,7 @@ const PageNotfound = () => {
       <i class="far fa-question-circle fa-spin"></i>
       <div class="err2">4</div>
       <div class="msg">
-        Maybe this page moved? Got deleted? Is hiding out in quarantine? Never
-        existed in the first place?
+        Influencer Not Found
         <p>
           Let's go <Link to="/">Home</Link> and try from there.
         </p>

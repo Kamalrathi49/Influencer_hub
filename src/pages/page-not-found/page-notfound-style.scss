@@ -1,7 +1,7 @@
 .mainbox {
   background-color: #95c2de;
   margin: auto;
-  height: 610px;
+  height: 615px;
   width: 600px;
   position: relative;
 
@@ -28,12 +28,13 @@
 .far {
   position: absolute;
   font-size: 8.5rem;
-  left: 42%;
-  top: 15%;
+  left: 40%;
+  top: 18%;
   color: #ffffff;
 
   @media screen and (max-width: 900px) {
     left: 32%;
+    top: 16%;
   }
 }
 
@@ -42,7 +43,7 @@
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11rem;
     position:absolute;
-    left: 68%;
+    left: 64%;
     top: 8%;
 
     @media screen and (max-width: 900px) {
@@ -56,7 +57,7 @@
     font-size: 1.6rem;
     position:absolute;
     left: 12%;
-    top: 40%;
+    top: 44%;
     width: 75%;
   }
 
