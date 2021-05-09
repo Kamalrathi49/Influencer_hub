@@ -5,10 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("https://linkrr.in/uploads/backgrounds/c13281a9780789bfa70dfe6cf48ad867.png");
-  background-size: contain;
-  background-position: top;
-  background: cover;
+ 
 }
 
 code {

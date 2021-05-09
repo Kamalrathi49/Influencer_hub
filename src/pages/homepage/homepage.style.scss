@@ -1,0 +1,25 @@
+.users {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
+}
+
+.user {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    margin-bottom: 6px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.username {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    margin-top: 0%;
+
+
+}
