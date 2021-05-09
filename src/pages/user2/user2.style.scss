@@ -4,6 +4,7 @@
   background: linear-gradient(#e66465, #9198e5);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 720px;
 }
 
 .avatar {
@@ -30,6 +31,8 @@
 
 .social-profile {
   margin: 40px;
+   
+  
 }
 
 .btn {
@@ -61,15 +64,4 @@
   background-color: white;
 }
 
-.footer {
-    padding-bottom: 20px;
-    margin: 0;
-  }
 
-.footer-heading {
-  font-size: 18px;
-  font-family: fantasy;
-  background: -webkit-linear-gradient(#eee, #333);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}

@@ -1,0 +1,25 @@
+.header {
+    padding: 20px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo-heading {
+  font-size: 14px;
+  font-family: fantasy;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  right:50%;
+}
+
+
+
+.inner-header {
+  border-bottom: 0px solid lightgrey;
+}

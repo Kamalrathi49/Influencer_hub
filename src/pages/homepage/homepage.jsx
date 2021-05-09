@@ -1,91 +1,55 @@
 import React from "react";
 
 import "./homepage.style.scss";
-import { ReactComponent as Logo } from "../../assests/crown.svg";
-
-import Animation1 from "../../component/animation/animation1.component";
 
 import { Link } from "react-router-dom";
 
+import Search from "../../component/search/search";
+import social from "../../assests/Social Media - 35344.mp4";
+import VideoBg from "reactjs-videobg";
+
 const HomePage = () => {
   return (
-    <div className="home-page">
-      <div className="header">
-        <Link to="/">
-          <Logo
-            style={{ marginBottom: "0px", height: "60px", width: "60px" }}
-          />
-        </Link>
-        <p className="logo-heading">Influencer Hub</p>
+    <div className="users">
+      <VideoBg>
+        <VideoBg.Source src={social} type="video/ogg" />
+        <VideoBg.Source src={social} type="video/webm" />
+        <VideoBg.Source src={social} type="video/mp4" />
+      </VideoBg>
+      <div>
+        <h1 style={{ color: "#333", display: "block" }}>
+          The Only Link You’ll Ever Need
+        </h1>
+        <p style={{ marginBottom: "40px" }}>
+          Connect audiences to all of your content with just one link
+        </p>
       </div>
-      <Animation1 className="animation" />
-
-      <div className="main-heading">
-        <div class="title">
-          <h1 className="text">INFLUENCERS</h1>
-        </div>
-      </div>
+      <Search />
 
       <div class="cards-list">
+
         <Link to="/kamal">
-          <div class="card 1">
-            <div class="card_image">
-              {" "}
-              <img src="https://avatars.githubusercontent.com/u/73382877?v=4" />{" "}
-            </div>
-            <div class="card_title title-white">
-              <p>Kamal</p>
-            </div>
+        <div class="card 1">
+          <div class="card_image">
+            {" "}
+            <img src="https://avatars.githubusercontent.com/u/73382877?v=4" />{" "}
           </div>
+          <div class="card_title title-white">
+            <p>Kamal</p>
+          </div>
+        </div>
         </Link>
-        <Link to="/deepak">
-          <div class="card 2">
-            <div class="card_image">
-              <img src="https://avatars.githubusercontent.com/u/57827083?v=4" />
-            </div>
-            <div class="card_title title-white">
-              <p>Deepak</p>
-            </div>
+        <Link to="deepak">
+        <div class="card 2">
+          <div class="card_image">
+            <img src="https://avatars.githubusercontent.com/u/57827083?v=4" />
           </div>
+          <div class="card_title title-white">
+            <p>Deepak</p>
+          </div>
+        </div>
         </Link>
       </div>
-
-      <footer class="footer-distributed">
-        <div class="footer-right">
-          <a href="#">
-            <i class="fa fa-facebook"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-github"></i>
-          </a>
-        </div>
-
-        <div class="footer-left">
-          <p class="footer-links">
-            <Link class="link-1" to="/">
-              Home
-            </Link>
-
-            <a href="#">Blog</a>
-
-            <a href="#">Pricing</a>
-
-            <a href="#">About</a>
-
-            <a href="#">Faq</a>
-
-            <a href="#">Contact</a>
-          </p>
-
-          <p>Company Name &copy; 2015</p>
-        </div>
-      </footer>
     </div>
   );
 };
