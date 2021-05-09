@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/influencer_hub/static/css/main.a09973fa.chunk.css",
-    "main.js": "/influencer_hub/static/js/main.a938ce62.chunk.js",
-    "main.js.map": "/influencer_hub/static/js/main.a938ce62.chunk.js.map",
+    "main.js": "/influencer_hub/static/js/main.e4aeb79d.chunk.js",
+    "main.js.map": "/influencer_hub/static/js/main.e4aeb79d.chunk.js.map",
     "runtime-main.js": "/influencer_hub/static/js/runtime-main.afdad8b0.js",
     "runtime-main.js.map": "/influencer_hub/static/js/runtime-main.afdad8b0.js.map",
     "static/js/2.1c3d743e.chunk.js": "/influencer_hub/static/js/2.1c3d743e.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.afdad8b0.js",
     "static/js/2.1c3d743e.chunk.js",
     "static/css/main.a09973fa.chunk.css",
-    "static/js/main.a938ce62.chunk.js"
+    "static/js/main.e4aeb79d.chunk.js"
   ]
 }
