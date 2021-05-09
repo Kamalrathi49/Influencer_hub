@@ -12,7 +12,7 @@ const PageNotfound = () => {
       <div class="msg">
         Influencer Not Found
         <p>
-          Let's go <Link to="/">Home</Link> and try from there.
+          Let's go <Link to="/influencer_hub">Home</Link> and try from there.
         </p>
       </div>
     </div>
