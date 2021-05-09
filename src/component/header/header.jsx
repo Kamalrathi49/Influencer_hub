@@ -9,7 +9,7 @@ export const Header = () => {
     <div className="header">
       <div className="inner-header">
         <div className="title">
-          <Link to="/" >
+          <Link to="/influencer_hub" >
             <Logo
               style={{ marginBottom: "0px", height: "50px", width: "50px" }}
             />
